@@ -1,0 +1,1 @@
+-- Answer for exercise 07: Build an SCD Type 2 dimension and do a point-in-time join

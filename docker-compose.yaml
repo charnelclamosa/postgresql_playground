@@ -1,0 +1,19 @@
+services:
+  python:
+    build: ./python
+    command: uvicorn fastapi_server:app --host 0.0.0.0 --port 8080 --reload
+    env_file:
+      - .env
+    volumes:
+      - ./python:/srv
+    ports:
+      - "${API_PORT:-8080}:8080"
+    restart: unless-stopped
+  db:
+    build: ./db
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+    volumes:
+      - ./db/private/data:/var/lib/postgresql/data

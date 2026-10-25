@@ -1,0 +1,1 @@
+-- Answer for exercise 08: Detect gaps in time-series sensor readings

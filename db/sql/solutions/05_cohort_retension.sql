@@ -1,0 +1,1 @@
+-- Answer for exercise 05: Monthly cohort retention

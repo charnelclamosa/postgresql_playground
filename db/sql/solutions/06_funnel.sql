@@ -1,0 +1,1 @@
+-- Answer for exercise 06: Ordered conversion funnel

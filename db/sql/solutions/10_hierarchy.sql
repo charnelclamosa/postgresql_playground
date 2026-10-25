@@ -1,0 +1,1 @@
+-- Answer for exercise 10: Recursive CTE on an org hierarchy

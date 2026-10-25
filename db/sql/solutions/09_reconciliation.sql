@@ -1,0 +1,1 @@
+-- Answer for exercise 09: Source vs. warehouse reconciliation

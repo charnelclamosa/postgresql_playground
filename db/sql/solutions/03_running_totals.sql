@@ -1,0 +1,1 @@
+-- Answer for exercise 03: Calendar spine, running total, moving average

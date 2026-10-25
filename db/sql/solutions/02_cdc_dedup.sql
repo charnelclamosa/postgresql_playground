@@ -1,0 +1,1 @@
+-- Answer for exercise 02: Deduplicate a CDC feed to current state

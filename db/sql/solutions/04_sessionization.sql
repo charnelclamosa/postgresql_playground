@@ -1,0 +1,1 @@
+-- Answer for exercise 04: Sessionization (gaps and islands)
