@@ -58,4 +58,5 @@ Keep one exercise per file, and end every query with a semicolon.
 
 ## Note
 
-The python API server is not currently used.
+- The python API server is not currently used.
+- I will add more SQL exercises in the future as my SQL skills improved.
