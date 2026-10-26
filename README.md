@@ -17,12 +17,11 @@ Run all commands from the repo root. `make` is the only command you need.
 
 To start over:
 
-    make reset-db   # rebuild the db image and re-run the init scripts
     make wipe-db    # delete the database files; the next `make run` starts from scratch
     make stop       # stop and remove the containers
     make clean      # also remove volumes and locally built images
 
-Run `make reset-db` after editing a script in `db/sql/init/`.
+Run `make wipe-db` after editing a script in `db/sql/init/`.
 
 ## Adding your answers
 
@@ -48,7 +47,7 @@ Keep one exercise per file, and end every query with a semicolon.
 | `make connect-db` | psql shell in the database container |
 | `make run-solution FILE=<name>.sql` | Run one file from `db/sql/solutions/` and print the result |
 | `make init-db` | Run the init scripts only |
-| `make reset-db` / `make wipe-db` | Re-run the init scripts / delete the database files |
+| `make wipe-db` | Re-run the init scripts / delete the database files |
 | `make logs [SERVICE=python]` | Stream container logs |
 | `make stop` / `make clean` | Stop everything / also remove volumes and images |
 

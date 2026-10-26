@@ -44,11 +44,6 @@ stop:
 
 init-db: .init-db
 
-reset-db:
-	$(COMPOSE_CMD) build $(DB_SERVICE)
-	rm -f .init-db
-	$(MAKE) .init-db
-
 wipe-db:
 	$(COMPOSE_CMD) stop $(DB_SERVICE)
 	$(COMPOSE_CMD) run --rm --no-deps --entrypoint bash $(DB_SERVICE) -c 'find /var/lib/postgresql/data -mindepth 1 -delete'
